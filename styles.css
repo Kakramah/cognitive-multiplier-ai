@@ -282,6 +282,60 @@ body {
   background: linear-gradient(135deg, var(--color-hero-hover) 0%, #B89241 100%);
 }
 
+/* ── منصة الاقتباس السيادي التأسيسي ── */
+.sovereign-quote-stage {
+  position: relative;
+  background: linear-gradient(135deg, rgba(201, 165, 87, 0.08) 0%, rgba(6, 11, 20, 0.95) 100%);
+  border: 1px solid rgba(201, 165, 87, 0.35);
+  border-right: 6px solid var(--color-hero);
+  border-radius: var(--radius-md);
+  padding: 2.5rem 2.25rem 2rem;
+  margin: 2rem 0 3rem;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5), 0 0 25px rgba(201, 165, 87, 0.12);
+}
+
+.quote-mark {
+  font-family: Georgia, serif;
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--color-hero);
+  opacity: 0.35;
+  position: absolute;
+  top: 0.5rem;
+  left: 1.5rem;
+  user-select: none;
+}
+
+.sovereign-main-quote {
+  font-family: var(--font-heading);
+  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.01em;
+}
+
+.quote-author-sign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(201, 165, 87, 0.2);
+  padding-top: 1rem;
+}
+
+.author-name {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-hero);
+}
+
+.author-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
 /* ── الحاوية التحريرية ── */
 .article-main-container {
   max-width: 840px;
